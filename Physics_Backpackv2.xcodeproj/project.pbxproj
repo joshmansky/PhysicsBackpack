@@ -1,0 +1,1329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775D670226B99A8C0074E1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D670126B99A8C0074E1C2 /* AppDelegate.swift */; };
+		775D670426B99A8C0074E1C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D670326B99A8C0074E1C2 /* SceneDelegate.swift */; };
+		775D670626B99A8C0074E1C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D670526B99A8C0074E1C2 /* HomeViewController.swift */; };
+		775D670B26B99A8F0074E1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775D670A26B99A8F0074E1C2 /* Assets.xcassets */; };
+		775D670E26B99A8F0074E1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775D670C26B99A8F0074E1C2 /* LaunchScreen.storyboard */; };
+		775D671926B99A8F0074E1C2 /* Physics_Backpackv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D671826B99A8F0074E1C2 /* Physics_Backpackv2Tests.swift */; };
+		775D672426B99A8F0074E1C2 /* Physics_Backpackv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D672326B99A8F0074E1C2 /* Physics_Backpackv2UITests.swift */; };
+		775D673826B99D2C0074E1C2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D673726B99D2C0074E1C2 /* TabBarViewController.swift */; };
+		775D673A26B99D750074E1C2 /* CalculatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D673926B99D750074E1C2 /* CalculatorsViewController.swift */; };
+		775D673C26B99D9D0074E1C2 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D673B26B99D9D0074E1C2 /* ResourcesViewController.swift */; };
+		775D673E26B99E1F0074E1C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D673D26B99E1F0074E1C2 /* SettingsViewController.swift */; };
+		775D674226B99EA10074E1C2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674126B99EA10074E1C2 /* WelcomeViewController.swift */; };
+		775D674426B99F6C0074E1C2 /* NewtonsSecondLawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674326B99F6C0074E1C2 /* NewtonsSecondLawViewController.swift */; };
+		775D674626B99F8E0074E1C2 /* PotentialEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674526B99F8E0074E1C2 /* PotentialEnergyViewController.swift */; };
+		775D674A26B99FDE0074E1C2 /* MassEnergyEquivalenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674926B99FDE0074E1C2 /* MassEnergyEquivalenceViewController.swift */; };
+		775D674C26B9A0890074E1C2 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674B26B9A0890074E1C2 /* APICaller.swift */; };
+		775D674E26B9B0050074E1C2 /* CalculatorsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674D26B9B0050074E1C2 /* CalculatorsModels.swift */; };
+		775D675026B9B5EC0074E1C2 /* ConstantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D674F26B9B5EC0074E1C2 /* ConstantsViewController.swift */; };
+		775D675226B9B6070074E1C2 /* IonizationEnergiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D675126B9B6070074E1C2 /* IonizationEnergiesViewController.swift */; };
+		775D675426B9B6DF0074E1C2 /* ResourcesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D675326B9B6DF0074E1C2 /* ResourcesModels.swift */; };
+		775D675626B9FD7D0074E1C2 /* acceleration-equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D675526B9FD7C0074E1C2 /* acceleration-equation.png */; };
+		775D675A26BB75640074E1C2 /* AccelerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D675926BB75640074E1C2 /* AccelerationViewController.swift */; };
+		775D675C26BDC9C00074E1C2 /* BaseUnitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D675B26BDC9C00074E1C2 /* BaseUnitsViewController.swift */; };
+		775D675E26BDDB410074E1C2 /* ElectricFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D675D26BDDB410074E1C2 /* ElectricFieldViewController.swift */; };
+		775D676226BDF4B70074E1C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676126BDF4B70074E1C2 /* TableViewController.swift */; };
+		775D676426BDF4C30074E1C2 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676326BDF4C30074E1C2 /* OtherViewController.swift */; };
+		775D676626BDF4F10074E1C2 /* NewtonianMechanicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676526BDF4F10074E1C2 /* NewtonianMechanicsViewController.swift */; };
+		775D676826BDF5000074E1C2 /* ElectroMagnetismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676726BDF5000074E1C2 /* ElectroMagnetismViewController.swift */; };
+		775D676A26BDF5140074E1C2 /* FluidMechanicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676926BDF5140074E1C2 /* FluidMechanicsViewController.swift */; };
+		775D676C26BDF52C0074E1C2 /* AtomicPhysicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676B26BDF52C0074E1C2 /* AtomicPhysicsViewController.swift */; };
+		775D676E26BDF92D0074E1C2 /* NewtonianMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676D26BDF92D0074E1C2 /* NewtonianMechanics.swift */; };
+		775D677026BDF9570074E1C2 /* ElectroMagnetism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D676F26BDF9570074E1C2 /* ElectroMagnetism.swift */; };
+		775D677226BDF96F0074E1C2 /* FluidMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677126BDF96F0074E1C2 /* FluidMechanics.swift */; };
+		775D677426BDF98C0074E1C2 /* AtomicPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677326BDF98C0074E1C2 /* AtomicPhysics.swift */; };
+		775D677626BDF9B80074E1C2 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677526BDF9B80074E1C2 /* Table.swift */; };
+		775D677826BDF9C40074E1C2 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677726BDF9C40074E1C2 /* Other.swift */; };
+		775D677A26BEF3B60074E1C2 /* PhysicsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677926BEF3B60074E1C2 /* PhysicsNewsViewController.swift */; };
+		775D677C26BF0A700074E1C2 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677B26BF0A700074E1C2 /* WebsiteViewController.swift */; };
+		775D677E26BF109E0074E1C2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677D26BF109E0074E1C2 /* EmailViewController.swift */; };
+		775D678026BF1FD90074E1C2 /* GreekAlphabetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D677F26BF1FD90074E1C2 /* GreekAlphabetViewController.swift */; };
+		775D678226BF314A0074E1C2 /* ConstantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D678126BF314A0074E1C2 /* ConstantsTableViewCell.swift */; };
+		775D678626BF6E610074E1C2 /* Potential_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D678526BF6E610074E1C2 /* Potential_Energy_Equation.png */; };
+		775D678C26BF81DB0074E1C2 /* Magnetic_Field_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D678B26BF81DB0074E1C2 /* Magnetic_Field_Equation.png */; };
+		775D678E26BF830F0074E1C2 /* ForceOfAMagneticFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D678D26BF830F0074E1C2 /* ForceOfAMagneticFieldViewController.swift */; };
+		775D679026BF912E0074E1C2 /* Mass_Energy_Equivalence_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D678F26BF912E0074E1C2 /* Mass_Energy_Equivalence_Equation.png */; };
+		775D679226BF92090074E1C2 /* HookesLawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679126BF92090074E1C2 /* HookesLawViewController.swift */; };
+		775D679426BF921D0074E1C2 /* MomentumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679326BF921D0074E1C2 /* MomentumViewController.swift */; };
+		775D679626BF922E0074E1C2 /* KineticEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679526BF922E0074E1C2 /* KineticEnergyViewController.swift */; };
+		775D679826BF92400074E1C2 /* ElasticEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679726BF92400074E1C2 /* ElasticEnergyViewController.swift */; };
+		775D679A26BF92630074E1C2 /* EnergyConversionEfficiencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679926BF92630074E1C2 /* EnergyConversionEfficiencyViewController.swift */; };
+		775D679C26BF92870074E1C2 /* PressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679B26BF92870074E1C2 /* PressureViewController.swift */; };
+		775D679E26BF92A20074E1C2 /* PressureVolumeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679D26BF92A20074E1C2 /* PressureVolumeWorkViewController.swift */; };
+		775D67A026BF92BC0074E1C2 /* NewtonsLawOfUniversalGravitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D679F26BF92BC0074E1C2 /* NewtonsLawOfUniversalGravitationViewController.swift */; };
+		775D67A226BF92CE0074E1C2 /* CentrifugalForceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67A126BF92CE0074E1C2 /* CentrifugalForceViewController.swift */; };
+		775D67A426BF92E00074E1C2 /* FrictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67A326BF92E00074E1C2 /* FrictionViewController.swift */; };
+		775D67A626BF92F20074E1C2 /* RotationalKineticEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67A526BF92F20074E1C2 /* RotationalKineticEnergyViewController.swift */; };
+		775D67A826BF92FF0074E1C2 /* TorqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67A726BF92FF0074E1C2 /* TorqueViewController.swift */; };
+		775D67AA26BF93560074E1C2 /* GravitationalAccelerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67A926BF93560074E1C2 /* GravitationalAccelerationViewController.swift */; };
+		775D67AC26BF94220074E1C2 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67AB26BF94220074E1C2 /* WorkViewController.swift */; };
+		775D67CA26C0ABF10074E1C2 /* ElectricPowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67C926C0ABF10074E1C2 /* ElectricPowerViewController.swift */; };
+		775D67CC26C0AC030074E1C2 /* ElectricCurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67CB26C0AC030074E1C2 /* ElectricCurrentViewController.swift */; };
+		775D67CE26C0AC100074E1C2 /* OhmsLawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67CD26C0AC100074E1C2 /* OhmsLawViewController.swift */; };
+		775D67D026C0AC1A0074E1C2 /* VoltageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67CF26C0AC1A0074E1C2 /* VoltageViewController.swift */; };
+		775D67D226C0AC2D0074E1C2 /* MagneticFluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67D126C0AC2D0074E1C2 /* MagneticFluxViewController.swift */; };
+		775D67D526C0AC4A0074E1C2 /* MagneticFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67D426C0AC4A0074E1C2 /* MagneticFieldViewController.swift */; };
+		775D67D726C0AC5D0074E1C2 /* ResistivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67D626C0AC5D0074E1C2 /* ResistivityViewController.swift */; };
+		775D67D926C0AC730074E1C2 /* CapacitanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67D826C0AC730074E1C2 /* CapacitanceViewController.swift */; };
+		775D67DB26C0AC880074E1C2 /* CapacitorEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67DA26C0AC880074E1C2 /* CapacitorEnergyViewController.swift */; };
+		775D67DD26C0AC990074E1C2 /* InductorEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67DC26C0AC990074E1C2 /* InductorEnergyViewController.swift */; };
+		775D67DF26C0ACA80074E1C2 /* CoulombsLawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67DE26C0ACA80074E1C2 /* CoulombsLawViewController.swift */; };
+		775D67F726C0C51B0074E1C2 /* InductanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D67F626C0C51B0074E1C2 /* InductanceViewController.swift */; };
+		775D680526C0CF200074E1C2 /* DisplacementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D680426C0CF200074E1C2 /* DisplacementViewController.swift */; };
+		775D680726C0CF2D0074E1C2 /* DensityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D680626C0CF2D0074E1C2 /* DensityViewController.swift */; };
+		775D680926C0CF3E0074E1C2 /* PhaseVelocityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D680826C0CF3E0074E1C2 /* PhaseVelocityViewController.swift */; };
+		775D680B26C0CF4C0074E1C2 /* StaticFluidPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D680A26C0CF4C0074E1C2 /* StaticFluidPressureViewController.swift */; };
+		775D680D26C0CF5C0074E1C2 /* DynamicPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D680C26C0CF5C0074E1C2 /* DynamicPressureViewController.swift */; };
+		775D680F26C0CF720074E1C2 /* BuoyancyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D680E26C0CF720074E1C2 /* BuoyancyViewController.swift */; };
+		775D681126C0CF890074E1C2 /* VolumetricFlowRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D681026C0CF890074E1C2 /* VolumetricFlowRateViewController.swift */; };
+		775D681326C0CF960074E1C2 /* MassFlowRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D681226C0CF960074E1C2 /* MassFlowRateViewController.swift */; };
+		775D681526C0CFA90074E1C2 /* HeatCapacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D681426C0CFA90074E1C2 /* HeatCapacityViewController.swift */; };
+		775D681726C0CFB90074E1C2 /* MechanicalAdvantageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D681626C0CFB90074E1C2 /* MechanicalAdvantageViewController.swift */; };
+		775D683126C0ECA90074E1C2 /* WavelengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D683026C0ECA90074E1C2 /* WavelengthViewController.swift */; };
+		775D683326C0ECCE0074E1C2 /* DeBroglieWavelengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D683226C0ECCE0074E1C2 /* DeBroglieWavelengthViewController.swift */; };
+		775D683526C0ECDD0074E1C2 /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D683426C0ECDD0074E1C2 /* EnergyViewController.swift */; };
+		775D683726C0ECFC0074E1C2 /* MinimumEnergyToEjectElectronViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D683626C0ECFC0074E1C2 /* MinimumEnergyToEjectElectronViewController.swift */; };
+		775D684326C1840F0074E1C2 /* AirResistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684226C1840F0074E1C2 /* AirResistanceViewController.swift */; };
+		775D684526C184350074E1C2 /* CosmicBackgroundRadiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684426C184350074E1C2 /* CosmicBackgroundRadiationViewController.swift */; };
+		775D684726C184530074E1C2 /* ElectronOrbitalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684626C184530074E1C2 /* ElectronOrbitalsViewController.swift */; };
+		775D684926C1847F0074E1C2 /* PeriodicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684826C1847F0074E1C2 /* PeriodicTableViewController.swift */; };
+		775D684B26C184900074E1C2 /* PlanckCurvesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684A26C184900074E1C2 /* PlanckCurvesViewController.swift */; };
+		775D684D26C184A90074E1C2 /* FormulaExplanation1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684C26C184A90074E1C2 /* FormulaExplanation1ViewController.swift */; };
+		775D684F26C184BB0074E1C2 /* FormulaExplanation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D684E26C184BB0074E1C2 /* FormulaExplanation2ViewController.swift */; };
+		775D685126C184E00074E1C2 /* FormulaExplanation3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D685026C184E00074E1C2 /* FormulaExplanation3ViewController.swift */; };
+		775D685326C184F20074E1C2 /* FormulaExplanation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D685226C184F20074E1C2 /* FormulaExplanation4ViewController.swift */; };
+		775D686926C1882A0074E1C2 /* StandardModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D686826C1882A0074E1C2 /* StandardModelViewController.swift */; };
+		77E4FC032B36357D00849362 /* Density_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB32B36357700849362 /* Density_Equation.png */; };
+		77E4FC042B36357D00849362 /* Minimum_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB42B36357700849362 /* Minimum_Energy_Equation.png */; };
+		77E4FC052B36357D00849362 /* Dynamic_Pressure_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB52B36357700849362 /* Dynamic_Pressure_Equation.png */; };
+		77E4FC062B36357D00849362 /* ElectronOrbitals copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB62B36357700849362 /* ElectronOrbitals copy.png */; };
+		77E4FC072B36357D00849362 /* De_Broglie_Wavelength_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB72B36357700849362 /* De_Broglie_Wavelength_Equation.png */; };
+		77E4FC082B36357D00849362 /* AirResistance copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB82B36357700849362 /* AirResistance copy.png */; };
+		77E4FC092B36357D00849362 /* Torque_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBB92B36357700849362 /* Torque_Equation.png */; };
+		77E4FC0A2B36357D00849362 /* Law_Of_Universal_Gravitation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBBA2B36357700849362 /* Law_Of_Universal_Gravitation.png */; };
+		77E4FC0B2B36357D00849362 /* ElecCurrent copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBBB2B36357700849362 /* ElecCurrent copy.png */; };
+		77E4FC0C2B36357D00849362 /* Pressure_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBBC2B36357700849362 /* Pressure_Equation.png */; };
+		77E4FC0D2B36357D00849362 /* Capacitance.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBBD2B36357700849362 /* Capacitance.png */; };
+		77E4FC0E2B36357D00849362 /* IonazationEnergies copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBBE2B36357800849362 /* IonazationEnergies copy.png */; };
+		77E4FC0F2B36357D00849362 /* StaticFluid_Pressure_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBBF2B36357800849362 /* StaticFluid_Pressure_Equation.png */; };
+		77E4FC102B36357D00849362 /* DisplacementEquation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC02B36357800849362 /* DisplacementEquation.png */; };
+		77E4FC112B36357D00849362 /* Magnetic_Flux_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC12B36357800849362 /* Magnetic_Flux_Equation.png */; };
+		77E4FC122B36357D00849362 /* Magnetic_Field_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC22B36357800849362 /* Magnetic_Field_Equation.png */; };
+		77E4FC132B36357D00849362 /* Inductor_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC32B36357800849362 /* Inductor_Energy_Equation.png */; };
+		77E4FC142B36357D00849362 /* Resistivity_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC42B36357800849362 /* Resistivity_Equation.png */; };
+		77E4FC152B36357D00849362 /* Centrifugal_Force_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC52B36357800849362 /* Centrifugal_Force_Equation.png */; };
+		77E4FC162B36357D00849362 /* density1EQ copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC62B36357800849362 /* density1EQ copy.png */; };
+		77E4FC172B36357D00849362 /* Heat_Capacity_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC72B36357800849362 /* Heat_Capacity_Equation.png */; };
+		77E4FC182B36357D00849362 /* Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC82B36357800849362 /* Energy_Equation.png */; };
+		77E4FC192B36357D00849362 /* Standard_Model_of_Elementary_Particles.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBC92B36357800849362 /* Standard_Model_of_Elementary_Particles.svg.png */; };
+		77E4FC1A2B36357D00849362 /* acceleration-equation copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBCA2B36357900849362 /* acceleration-equation copy.png */; };
+		77E4FC1B2B36357D00849362 /* Displacement_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBCB2B36357900849362 /* Displacement_Equation.png */; };
+		77E4FC1C2B36357D00849362 /* PlanckCurves copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBCC2B36357900849362 /* PlanckCurves copy.png */; };
+		77E4FC1D2B36357D00849362 /* Static_Fluid_Pressure_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBCD2B36357900849362 /* Static_Fluid_Pressure_Equation.png */; };
+		77E4FC1E2B36357D00849362 /* Simple_Periodic_Table_Chart-en.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBCE2B36357900849362 /* Simple_Periodic_Table_Chart-en.svg.png */; };
+		77E4FC1F2B36357D00849362 /* Elastic_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBCF2B36357900849362 /* Elastic_Energy_Equation.png */; };
+		77E4FC202B36357D00849362 /* Momentum_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD02B36357900849362 /* Momentum_Equation.png */; };
+		77E4FC212B36357D00849362 /* Inductance_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD12B36357900849362 /* Inductance_Equation.png */; };
+		77E4FC222B36357D00849362 /* Electric_Power_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD22B36357900849362 /* Electric_Power_Equation.png */; };
+		77E4FC232B36357D00849362 /* VisibleLight2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD32B36357900849362 /* VisibleLight2.png */; };
+		77E4FC242B36357D00849362 /* Potential_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD42B36357900849362 /* Potential_Energy_Equation.png */; };
+		77E4FC252B36357D00849362 /* Voltage_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD52B36357A00849362 /* Voltage_Equation.png */; };
+		77E4FC262B36357D00849362 /* Buoyancy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD62B36357A00849362 /* Buoyancy_Equation.png */; };
+		77E4FC272B36357D00849362 /* Inductor_Energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD72B36357A00849362 /* Inductor_Energy.png */; };
+		77E4FC282B36357D00849362 /* Acceleration_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD82B36357A00849362 /* Acceleration_Equation.png */; };
+		77E4FC292B36357D00849362 /* Hookes_Law_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBD92B36357A00849362 /* Hookes_Law_Equation.png */; };
+		77E4FC2A2B36357D00849362 /* Electric_Current_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBDA2B36357A00849362 /* Electric_Current_Equation.png */; };
+		77E4FC2B2B36357D00849362 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBDB2B36357A00849362 /* logo.png */; };
+		77E4FC2C2B36357D00849362 /* ElectricPower_Equation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBDC2B36357A00849362 /* ElectricPower_Equation.gif */; };
+		77E4FC2D2B36357D00849362 /* MollerScattering-t.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBDD2B36357A00849362 /* MollerScattering-t.svg.png */; };
+		77E4FC2E2B36357D00849362 /* Capacitance_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBDE2B36357A00849362 /* Capacitance_Equation.png */; };
+		77E4FC2F2B36357D00849362 /* PeriodicTableTrends.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBDF2B36357A00849362 /* PeriodicTableTrends.png */; };
+		77E4FC302B36357D00849362 /* Electric_Power.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE02B36357A00849362 /* Electric_Power.png */; };
+		77E4FC312B36357D00849362 /* StandardModel.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE12B36357A00849362 /* StandardModel.png */; };
+		77E4FC322B36357D00849362 /* Force_EQ copy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE22B36357A00849362 /* Force_EQ copy.jpeg */; };
+		77E4FC332B36357D00849362 /* displacement copy.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE32B36357B00849362 /* displacement copy.GIF */; };
+		77E4FC342B36357D00849362 /* Electric_Field_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE42B36357B00849362 /* Electric_Field_Equation.png */; };
+		77E4FC352B36357D00849362 /* CosmicBackgroundRadiation copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE52B36357B00849362 /* CosmicBackgroundRadiation copy.png */; };
+		77E4FC362B36357D00849362 /* EquationExplanation-2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE62B36357B00849362 /* EquationExplanation-2 copy.png */; };
+		77E4FC372B36357D00849362 /* Gravitational Acceleration.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE72B36357B00849362 /* Gravitational Acceleration.png */; };
+		77E4FC382B36357D00849362 /* Mass_Energy_Equivalence_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE82B36357B00849362 /* Mass_Energy_Equivalence_Equation.png */; };
+		77E4FC392B36357D00849362 /* Newtons Second Law.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBE92B36357B00849362 /* Newtons Second Law.gif */; };
+		77E4FC3A2B36357D00849362 /* PeriodicTable copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBEA2B36357B00849362 /* PeriodicTable copy.png */; };
+		77E4FC3B2B36357D00849362 /* PeriodicTablev2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBEB2B36357B00849362 /* PeriodicTablev2.png */; };
+		77E4FC3C2B36357D00849362 /* Phase_Velocity_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBEC2B36357B00849362 /* Phase_Velocity_Equation.png */; };
+		77E4FC3D2B36357D00849362 /* PressureVolumeWorkEquation2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBED2B36357B00849362 /* PressureVolumeWorkEquation2.png */; };
+		77E4FC3E2B36357D00849362 /* Valence-Electrons-300x198.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBEE2B36357B00849362 /* Valence-Electrons-300x198.png */; };
+		77E4FC3F2B36357D00849362 /* Volumetric_Flow_Rate_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBEF2B36357B00849362 /* Volumetric_Flow_Rate_Equation.png */; };
+		77E4FC402B36357D00849362 /* Wavelength_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF02B36357B00849362 /* Wavelength_Equation.png */; };
+		77E4FC412B36357D00849362 /* Kinetic_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF12B36357C00849362 /* Kinetic_Energy_Equation.png */; };
+		77E4FC422B36357D00849362 /* Work_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF22B36357C00849362 /* Work_Equation.png */; };
+		77E4FC432B36357D00849362 /* acceleration-equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF32B36357C00849362 /* acceleration-equation.png */; };
+		77E4FC442B36357D00849362 /* Capacitor_Energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF42B36357C00849362 /* Capacitor_Energy.png */; };
+		77E4FC452B36357D00849362 /* EquationExplanations-1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF52B36357C00849362 /* EquationExplanations-1 copy.png */; };
+		77E4FC462B36357D00849362 /* Pressure_Volume_Work_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF62B36357C00849362 /* Pressure_Volume_Work_Equation.png */; };
+		77E4FC472B36357D00849362 /* Energy_Conversion_Efficiency_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF72B36357C00849362 /* Energy_Conversion_Efficiency_Equation.png */; };
+		77E4FC482B36357D00849362 /* kisspng-light-photoelectric-effect-black-body-radiation-pl-particle-dynamic-light-effect-5ad7be16534939.3850811415240883423412.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF82B36357C00849362 /* kisspng-light-photoelectric-effect-black-body-radiation-pl-particle-dynamic-light-effect-5ad7be16534939.3850811415240883423412.jpg */; };
+		77E4FC492B36357D00849362 /* Mass_Flow_Rate_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBF92B36357C00849362 /* Mass_Flow_Rate_Equation.png */; };
+		77E4FC4A2B36357D00849362 /* Friction_Coefficient_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBFA2B36357C00849362 /* Friction_Coefficient_Equation.png */; };
+		77E4FC4B2B36357D00849362 /* DeBroglie_Wavelength_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBFB2B36357C00849362 /* DeBroglie_Wavelength_Equation.png */; };
+		77E4FC4C2B36357D00849362 /* Mechanical_Advantage_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBFC2B36357C00849362 /* Mechanical_Advantage_Equation.png */; };
+		77E4FC4D2B36357D00849362 /* Rotational_Kinetic_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBFD2B36357C00849362 /* Rotational_Kinetic_Energy_Equation.png */; };
+		77E4FC4E2B36357D00849362 /* Introductory_Physics_fig_2.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBFE2B36357D00849362 /* Introductory_Physics_fig_2.15.png */; };
+		77E4FC4F2B36357D00849362 /* Capacitor_Energy_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FBFF2B36357D00849362 /* Capacitor_Energy_Equation.png */; };
+		77E4FC502B36357D00849362 /* Coulombs_Law_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FC002B36357D00849362 /* Coulombs_Law_Equation.png */; };
+		77E4FC512B36357D00849362 /* Ohms_Law_Equation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FC012B36357D00849362 /* Ohms_Law_Equation.png */; };
+		77E4FC522B36357D00849362 /* PressureVolumeWorkEquation.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FC022B36357D00849362 /* PressureVolumeWorkEquation.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775D671526B99A8F0074E1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775D66F626B99A8B0074E1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775D66FD26B99A8B0074E1C2;
+			remoteInfo = Physics_Backpackv2;
+		};
+		775D672026B99A8F0074E1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775D66F626B99A8B0074E1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775D66FD26B99A8B0074E1C2;
+			remoteInfo = Physics_Backpackv2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775D66FE26B99A8C0074E1C2 /* Physics_Backpackv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Physics_Backpackv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775D670126B99A8C0074E1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775D670326B99A8C0074E1C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		775D670526B99A8C0074E1C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		775D670A26B99A8F0074E1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775D670D26B99A8F0074E1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775D670F26B99A8F0074E1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775D671426B99A8F0074E1C2 /* Physics_Backpackv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Physics_Backpackv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775D671826B99A8F0074E1C2 /* Physics_Backpackv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics_Backpackv2Tests.swift; sourceTree = "<group>"; };
+		775D671A26B99A8F0074E1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775D671F26B99A8F0074E1C2 /* Physics_Backpackv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Physics_Backpackv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775D672326B99A8F0074E1C2 /* Physics_Backpackv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics_Backpackv2UITests.swift; sourceTree = "<group>"; };
+		775D672526B99A8F0074E1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775D673726B99D2C0074E1C2 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		775D673926B99D750074E1C2 /* CalculatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorsViewController.swift; sourceTree = "<group>"; };
+		775D673B26B99D9D0074E1C2 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		775D673D26B99E1F0074E1C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		775D674126B99EA10074E1C2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		775D674326B99F6C0074E1C2 /* NewtonsSecondLawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonsSecondLawViewController.swift; sourceTree = "<group>"; };
+		775D674526B99F8E0074E1C2 /* PotentialEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotentialEnergyViewController.swift; sourceTree = "<group>"; };
+		775D674926B99FDE0074E1C2 /* MassEnergyEquivalenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassEnergyEquivalenceViewController.swift; sourceTree = "<group>"; };
+		775D674B26B9A0890074E1C2 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		775D674D26B9B0050074E1C2 /* CalculatorsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorsModels.swift; sourceTree = "<group>"; };
+		775D674F26B9B5EC0074E1C2 /* ConstantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsViewController.swift; sourceTree = "<group>"; };
+		775D675126B9B6070074E1C2 /* IonizationEnergiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonizationEnergiesViewController.swift; sourceTree = "<group>"; };
+		775D675326B9B6DF0074E1C2 /* ResourcesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesModels.swift; sourceTree = "<group>"; };
+		775D675526B9FD7C0074E1C2 /* acceleration-equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "acceleration-equation.png"; path = "../../acceleration-equation.png"; sourceTree = "<group>"; };
+		775D675926BB75640074E1C2 /* AccelerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationViewController.swift; sourceTree = "<group>"; };
+		775D675B26BDC9C00074E1C2 /* BaseUnitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUnitsViewController.swift; sourceTree = "<group>"; };
+		775D675D26BDDB410074E1C2 /* ElectricFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricFieldViewController.swift; sourceTree = "<group>"; };
+		775D676126BDF4B70074E1C2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		775D676326BDF4C30074E1C2 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		775D676526BDF4F10074E1C2 /* NewtonianMechanicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonianMechanicsViewController.swift; sourceTree = "<group>"; };
+		775D676726BDF5000074E1C2 /* ElectroMagnetismViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroMagnetismViewController.swift; sourceTree = "<group>"; };
+		775D676926BDF5140074E1C2 /* FluidMechanicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMechanicsViewController.swift; sourceTree = "<group>"; };
+		775D676B26BDF52C0074E1C2 /* AtomicPhysicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicPhysicsViewController.swift; sourceTree = "<group>"; };
+		775D676D26BDF92D0074E1C2 /* NewtonianMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonianMechanics.swift; sourceTree = "<group>"; };
+		775D676F26BDF9570074E1C2 /* ElectroMagnetism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroMagnetism.swift; sourceTree = "<group>"; };
+		775D677126BDF96F0074E1C2 /* FluidMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMechanics.swift; sourceTree = "<group>"; };
+		775D677326BDF98C0074E1C2 /* AtomicPhysics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicPhysics.swift; sourceTree = "<group>"; };
+		775D677526BDF9B80074E1C2 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		775D677726BDF9C40074E1C2 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		775D677926BEF3B60074E1C2 /* PhysicsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsNewsViewController.swift; sourceTree = "<group>"; };
+		775D677B26BF0A700074E1C2 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		775D677D26BF109E0074E1C2 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		775D677F26BF1FD90074E1C2 /* GreekAlphabetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekAlphabetViewController.swift; sourceTree = "<group>"; };
+		775D678126BF314A0074E1C2 /* ConstantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTableViewCell.swift; sourceTree = "<group>"; };
+		775D678526BF6E610074E1C2 /* Potential_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Potential_Energy_Equation.png; path = ../../Potential_Energy_Equation.png; sourceTree = "<group>"; };
+		775D678B26BF81DB0074E1C2 /* Magnetic_Field_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Magnetic_Field_Equation.png; path = ../../Magnetic_Field_Equation.png; sourceTree = "<group>"; };
+		775D678D26BF830F0074E1C2 /* ForceOfAMagneticFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceOfAMagneticFieldViewController.swift; sourceTree = "<group>"; };
+		775D678F26BF912E0074E1C2 /* Mass_Energy_Equivalence_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mass_Energy_Equivalence_Equation.png; path = ../../Mass_Energy_Equivalence_Equation.png; sourceTree = "<group>"; };
+		775D679126BF92090074E1C2 /* HookesLawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookesLawViewController.swift; sourceTree = "<group>"; };
+		775D679326BF921D0074E1C2 /* MomentumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumViewController.swift; sourceTree = "<group>"; };
+		775D679526BF922E0074E1C2 /* KineticEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KineticEnergyViewController.swift; sourceTree = "<group>"; };
+		775D679726BF92400074E1C2 /* ElasticEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticEnergyViewController.swift; sourceTree = "<group>"; };
+		775D679926BF92630074E1C2 /* EnergyConversionEfficiencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyConversionEfficiencyViewController.swift; sourceTree = "<group>"; };
+		775D679B26BF92870074E1C2 /* PressureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureViewController.swift; sourceTree = "<group>"; };
+		775D679D26BF92A20074E1C2 /* PressureVolumeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureVolumeWorkViewController.swift; sourceTree = "<group>"; };
+		775D679F26BF92BC0074E1C2 /* NewtonsLawOfUniversalGravitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonsLawOfUniversalGravitationViewController.swift; sourceTree = "<group>"; };
+		775D67A126BF92CE0074E1C2 /* CentrifugalForceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrifugalForceViewController.swift; sourceTree = "<group>"; };
+		775D67A326BF92E00074E1C2 /* FrictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrictionViewController.swift; sourceTree = "<group>"; };
+		775D67A526BF92F20074E1C2 /* RotationalKineticEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalKineticEnergyViewController.swift; sourceTree = "<group>"; };
+		775D67A726BF92FF0074E1C2 /* TorqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorqueViewController.swift; sourceTree = "<group>"; };
+		775D67A926BF93560074E1C2 /* GravitationalAccelerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitationalAccelerationViewController.swift; sourceTree = "<group>"; };
+		775D67AB26BF94220074E1C2 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		775D67C926C0ABF10074E1C2 /* ElectricPowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricPowerViewController.swift; sourceTree = "<group>"; };
+		775D67CB26C0AC030074E1C2 /* ElectricCurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricCurrentViewController.swift; sourceTree = "<group>"; };
+		775D67CD26C0AC100074E1C2 /* OhmsLawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhmsLawViewController.swift; sourceTree = "<group>"; };
+		775D67CF26C0AC1A0074E1C2 /* VoltageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltageViewController.swift; sourceTree = "<group>"; };
+		775D67D126C0AC2D0074E1C2 /* MagneticFluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticFluxViewController.swift; sourceTree = "<group>"; };
+		775D67D426C0AC4A0074E1C2 /* MagneticFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticFieldViewController.swift; sourceTree = "<group>"; };
+		775D67D626C0AC5D0074E1C2 /* ResistivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistivityViewController.swift; sourceTree = "<group>"; };
+		775D67D826C0AC730074E1C2 /* CapacitanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitanceViewController.swift; sourceTree = "<group>"; };
+		775D67DA26C0AC880074E1C2 /* CapacitorEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorEnergyViewController.swift; sourceTree = "<group>"; };
+		775D67DC26C0AC990074E1C2 /* InductorEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InductorEnergyViewController.swift; sourceTree = "<group>"; };
+		775D67DE26C0ACA80074E1C2 /* CoulombsLawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoulombsLawViewController.swift; sourceTree = "<group>"; };
+		775D67F626C0C51B0074E1C2 /* InductanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InductanceViewController.swift; sourceTree = "<group>"; };
+		775D680426C0CF200074E1C2 /* DisplacementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplacementViewController.swift; sourceTree = "<group>"; };
+		775D680626C0CF2D0074E1C2 /* DensityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DensityViewController.swift; sourceTree = "<group>"; };
+		775D680826C0CF3E0074E1C2 /* PhaseVelocityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseVelocityViewController.swift; sourceTree = "<group>"; };
+		775D680A26C0CF4C0074E1C2 /* StaticFluidPressureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFluidPressureViewController.swift; sourceTree = "<group>"; };
+		775D680C26C0CF5C0074E1C2 /* DynamicPressureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPressureViewController.swift; sourceTree = "<group>"; };
+		775D680E26C0CF720074E1C2 /* BuoyancyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyancyViewController.swift; sourceTree = "<group>"; };
+		775D681026C0CF890074E1C2 /* VolumetricFlowRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumetricFlowRateViewController.swift; sourceTree = "<group>"; };
+		775D681226C0CF960074E1C2 /* MassFlowRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassFlowRateViewController.swift; sourceTree = "<group>"; };
+		775D681426C0CFA90074E1C2 /* HeatCapacityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatCapacityViewController.swift; sourceTree = "<group>"; };
+		775D681626C0CFB90074E1C2 /* MechanicalAdvantageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicalAdvantageViewController.swift; sourceTree = "<group>"; };
+		775D683026C0ECA90074E1C2 /* WavelengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavelengthViewController.swift; sourceTree = "<group>"; };
+		775D683226C0ECCE0074E1C2 /* DeBroglieWavelengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeBroglieWavelengthViewController.swift; sourceTree = "<group>"; };
+		775D683426C0ECDD0074E1C2 /* EnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
+		775D683626C0ECFC0074E1C2 /* MinimumEnergyToEjectElectronViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumEnergyToEjectElectronViewController.swift; sourceTree = "<group>"; };
+		775D684226C1840F0074E1C2 /* AirResistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirResistanceViewController.swift; sourceTree = "<group>"; };
+		775D684426C184350074E1C2 /* CosmicBackgroundRadiationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicBackgroundRadiationViewController.swift; sourceTree = "<group>"; };
+		775D684626C184530074E1C2 /* ElectronOrbitalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronOrbitalsViewController.swift; sourceTree = "<group>"; };
+		775D684826C1847F0074E1C2 /* PeriodicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableViewController.swift; sourceTree = "<group>"; };
+		775D684A26C184900074E1C2 /* PlanckCurvesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanckCurvesViewController.swift; sourceTree = "<group>"; };
+		775D684C26C184A90074E1C2 /* FormulaExplanation1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaExplanation1ViewController.swift; sourceTree = "<group>"; };
+		775D684E26C184BB0074E1C2 /* FormulaExplanation2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaExplanation2ViewController.swift; sourceTree = "<group>"; };
+		775D685026C184E00074E1C2 /* FormulaExplanation3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaExplanation3ViewController.swift; sourceTree = "<group>"; };
+		775D685226C184F20074E1C2 /* FormulaExplanation4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaExplanation4ViewController.swift; sourceTree = "<group>"; };
+		775D686826C1882A0074E1C2 /* StandardModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardModelViewController.swift; sourceTree = "<group>"; };
+		77E4FBB32B36357700849362 /* Density_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Density_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBB42B36357700849362 /* Minimum_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minimum_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBB52B36357700849362 /* Dynamic_Pressure_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dynamic_Pressure_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBB62B36357700849362 /* ElectronOrbitals copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ElectronOrbitals copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBB72B36357700849362 /* De_Broglie_Wavelength_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = De_Broglie_Wavelength_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBB82B36357700849362 /* AirResistance copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AirResistance copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBB92B36357700849362 /* Torque_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Torque_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBBA2B36357700849362 /* Law_Of_Universal_Gravitation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Law_Of_Universal_Gravitation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBBB2B36357700849362 /* ElecCurrent copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ElecCurrent copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBBC2B36357700849362 /* Pressure_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pressure_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBBD2B36357700849362 /* Capacitance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capacitance.png; sourceTree = SOURCE_ROOT; };
+		77E4FBBE2B36357800849362 /* IonazationEnergies copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IonazationEnergies copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBBF2B36357800849362 /* StaticFluid_Pressure_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StaticFluid_Pressure_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC02B36357800849362 /* DisplacementEquation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DisplacementEquation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC12B36357800849362 /* Magnetic_Flux_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnetic_Flux_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC22B36357800849362 /* Magnetic_Field_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnetic_Field_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC32B36357800849362 /* Inductor_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inductor_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC42B36357800849362 /* Resistivity_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resistivity_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC52B36357800849362 /* Centrifugal_Force_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Centrifugal_Force_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC62B36357800849362 /* density1EQ copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "density1EQ copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBC72B36357800849362 /* Heat_Capacity_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heat_Capacity_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC82B36357800849362 /* Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBC92B36357800849362 /* Standard_Model_of_Elementary_Particles.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Standard_Model_of_Elementary_Particles.svg.png; sourceTree = SOURCE_ROOT; };
+		77E4FBCA2B36357900849362 /* acceleration-equation copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acceleration-equation copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBCB2B36357900849362 /* Displacement_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Displacement_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBCC2B36357900849362 /* PlanckCurves copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlanckCurves copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBCD2B36357900849362 /* Static_Fluid_Pressure_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Static_Fluid_Pressure_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBCE2B36357900849362 /* Simple_Periodic_Table_Chart-en.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simple_Periodic_Table_Chart-en.svg.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBCF2B36357900849362 /* Elastic_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elastic_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD02B36357900849362 /* Momentum_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Momentum_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD12B36357900849362 /* Inductance_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inductance_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD22B36357900849362 /* Electric_Power_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electric_Power_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD32B36357900849362 /* VisibleLight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VisibleLight2.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD42B36357900849362 /* Potential_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Potential_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD52B36357A00849362 /* Voltage_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Voltage_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD62B36357A00849362 /* Buoyancy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buoyancy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD72B36357A00849362 /* Inductor_Energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inductor_Energy.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD82B36357A00849362 /* Acceleration_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acceleration_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBD92B36357A00849362 /* Hookes_Law_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hookes_Law_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBDA2B36357A00849362 /* Electric_Current_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electric_Current_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBDB2B36357A00849362 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		77E4FBDC2B36357A00849362 /* ElectricPower_Equation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ElectricPower_Equation.gif; sourceTree = SOURCE_ROOT; };
+		77E4FBDD2B36357A00849362 /* MollerScattering-t.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MollerScattering-t.svg.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBDE2B36357A00849362 /* Capacitance_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capacitance_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBDF2B36357A00849362 /* PeriodicTableTrends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PeriodicTableTrends.png; sourceTree = SOURCE_ROOT; };
+		77E4FBE02B36357A00849362 /* Electric_Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electric_Power.png; sourceTree = SOURCE_ROOT; };
+		77E4FBE12B36357A00849362 /* StandardModel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StandardModel.png; sourceTree = SOURCE_ROOT; };
+		77E4FBE22B36357A00849362 /* Force_EQ copy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Force_EQ copy.jpeg"; sourceTree = SOURCE_ROOT; };
+		77E4FBE32B36357B00849362 /* displacement copy.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "displacement copy.GIF"; sourceTree = SOURCE_ROOT; };
+		77E4FBE42B36357B00849362 /* Electric_Field_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electric_Field_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBE52B36357B00849362 /* CosmicBackgroundRadiation copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CosmicBackgroundRadiation copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBE62B36357B00849362 /* EquationExplanation-2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EquationExplanation-2 copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBE72B36357B00849362 /* Gravitational Acceleration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gravitational Acceleration.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBE82B36357B00849362 /* Mass_Energy_Equivalence_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mass_Energy_Equivalence_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBE92B36357B00849362 /* Newtons Second Law.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Newtons Second Law.gif"; sourceTree = SOURCE_ROOT; };
+		77E4FBEA2B36357B00849362 /* PeriodicTable copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PeriodicTable copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBEB2B36357B00849362 /* PeriodicTablev2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PeriodicTablev2.png; sourceTree = SOURCE_ROOT; };
+		77E4FBEC2B36357B00849362 /* Phase_Velocity_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phase_Velocity_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBED2B36357B00849362 /* PressureVolumeWorkEquation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PressureVolumeWorkEquation2.png; sourceTree = SOURCE_ROOT; };
+		77E4FBEE2B36357B00849362 /* Valence-Electrons-300x198.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Valence-Electrons-300x198.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBEF2B36357B00849362 /* Volumetric_Flow_Rate_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volumetric_Flow_Rate_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF02B36357B00849362 /* Wavelength_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wavelength_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF12B36357C00849362 /* Kinetic_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kinetic_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF22B36357C00849362 /* Work_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Work_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF32B36357C00849362 /* acceleration-equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acceleration-equation.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBF42B36357C00849362 /* Capacitor_Energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capacitor_Energy.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF52B36357C00849362 /* EquationExplanations-1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EquationExplanations-1 copy.png"; sourceTree = SOURCE_ROOT; };
+		77E4FBF62B36357C00849362 /* Pressure_Volume_Work_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pressure_Volume_Work_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF72B36357C00849362 /* Energy_Conversion_Efficiency_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energy_Conversion_Efficiency_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBF82B36357C00849362 /* kisspng-light-photoelectric-effect-black-body-radiation-pl-particle-dynamic-light-effect-5ad7be16534939.3850811415240883423412.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kisspng-light-photoelectric-effect-black-body-radiation-pl-particle-dynamic-light-effect-5ad7be16534939.3850811415240883423412.jpg"; sourceTree = SOURCE_ROOT; };
+		77E4FBF92B36357C00849362 /* Mass_Flow_Rate_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mass_Flow_Rate_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBFA2B36357C00849362 /* Friction_Coefficient_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friction_Coefficient_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBFB2B36357C00849362 /* DeBroglie_Wavelength_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeBroglie_Wavelength_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBFC2B36357C00849362 /* Mechanical_Advantage_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mechanical_Advantage_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBFD2B36357C00849362 /* Rotational_Kinetic_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rotational_Kinetic_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FBFE2B36357D00849362 /* Introductory_Physics_fig_2.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Introductory_Physics_fig_2.15.png; sourceTree = SOURCE_ROOT; };
+		77E4FBFF2B36357D00849362 /* Capacitor_Energy_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capacitor_Energy_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FC002B36357D00849362 /* Coulombs_Law_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coulombs_Law_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FC012B36357D00849362 /* Ohms_Law_Equation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ohms_Law_Equation.png; sourceTree = SOURCE_ROOT; };
+		77E4FC022B36357D00849362 /* PressureVolumeWorkEquation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PressureVolumeWorkEquation.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775D66FB26B99A8B0074E1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775D671126B99A8F0074E1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775D671C26B99A8F0074E1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775D66F526B99A8B0074E1C2 = {
+			isa = PBXGroup;
+			children = (
+				775D670026B99A8C0074E1C2 /* Physics_Backpackv2 */,
+				775D671726B99A8F0074E1C2 /* Physics_Backpackv2Tests */,
+				775D672226B99A8F0074E1C2 /* Physics_Backpackv2UITests */,
+				775D66FF26B99A8C0074E1C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775D66FF26B99A8C0074E1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775D66FE26B99A8C0074E1C2 /* Physics_Backpackv2.app */,
+				775D671426B99A8F0074E1C2 /* Physics_Backpackv2Tests.xctest */,
+				775D671F26B99A8F0074E1C2 /* Physics_Backpackv2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775D670026B99A8C0074E1C2 /* Physics_Backpackv2 */ = {
+			isa = PBXGroup;
+			children = (
+				775D673626B99B0C0074E1C2 /* Resources */,
+				775D673526B99B010074E1C2 /* Managers */,
+				775D673426B99AF60074E1C2 /* ViewModels */,
+				775D673326B99AE30074E1C2 /* Models */,
+				775D673226B99ACC0074E1C2 /* View */,
+				775D673126B99AB40074E1C2 /* Controllers */,
+				775D670F26B99A8F0074E1C2 /* Info.plist */,
+			);
+			path = Physics_Backpackv2;
+			sourceTree = "<group>";
+		};
+		775D671726B99A8F0074E1C2 /* Physics_Backpackv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				775D671826B99A8F0074E1C2 /* Physics_Backpackv2Tests.swift */,
+				775D671A26B99A8F0074E1C2 /* Info.plist */,
+			);
+			path = Physics_Backpackv2Tests;
+			sourceTree = "<group>";
+		};
+		775D672226B99A8F0074E1C2 /* Physics_Backpackv2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				775D672326B99A8F0074E1C2 /* Physics_Backpackv2UITests.swift */,
+				775D672526B99A8F0074E1C2 /* Info.plist */,
+			);
+			path = Physics_Backpackv2UITests;
+			sourceTree = "<group>";
+		};
+		775D673126B99AB40074E1C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				775D674026B99E670074E1C2 /* Other */,
+				775D673F26B99E4E0074E1C2 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		775D673226B99ACC0074E1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				775D670C26B99A8F0074E1C2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		775D673326B99AE30074E1C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				775D674D26B9B0050074E1C2 /* CalculatorsModels.swift */,
+				775D675326B9B6DF0074E1C2 /* ResourcesModels.swift */,
+				775D676D26BDF92D0074E1C2 /* NewtonianMechanics.swift */,
+				775D676F26BDF9570074E1C2 /* ElectroMagnetism.swift */,
+				775D677126BDF96F0074E1C2 /* FluidMechanics.swift */,
+				775D677326BDF98C0074E1C2 /* AtomicPhysics.swift */,
+				775D677526BDF9B80074E1C2 /* Table.swift */,
+				775D677726BDF9C40074E1C2 /* Other.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		775D673426B99AF60074E1C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		775D673526B99B010074E1C2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				775D674B26B9A0890074E1C2 /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		775D673626B99B0C0074E1C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				775D670A26B99A8F0074E1C2 /* Assets.xcassets */,
+				775D670326B99A8C0074E1C2 /* SceneDelegate.swift */,
+				775D670126B99A8C0074E1C2 /* AppDelegate.swift */,
+				775D675526B9FD7C0074E1C2 /* acceleration-equation.png */,
+				77E4FBD82B36357A00849362 /* Acceleration_Equation.png */,
+				77E4FBCA2B36357900849362 /* acceleration-equation copy.png */,
+				77E4FBF32B36357C00849362 /* acceleration-equation.png */,
+				77E4FBB82B36357700849362 /* AirResistance copy.png */,
+				77E4FBD62B36357A00849362 /* Buoyancy_Equation.png */,
+				77E4FBDE2B36357A00849362 /* Capacitance_Equation.png */,
+				77E4FBBD2B36357700849362 /* Capacitance.png */,
+				77E4FBFF2B36357D00849362 /* Capacitor_Energy_Equation.png */,
+				77E4FBF42B36357C00849362 /* Capacitor_Energy.png */,
+				77E4FBC52B36357800849362 /* Centrifugal_Force_Equation.png */,
+				77E4FBE52B36357B00849362 /* CosmicBackgroundRadiation copy.png */,
+				77E4FC002B36357D00849362 /* Coulombs_Law_Equation.png */,
+				77E4FBB72B36357700849362 /* De_Broglie_Wavelength_Equation.png */,
+				77E4FBFB2B36357C00849362 /* DeBroglie_Wavelength_Equation.png */,
+				77E4FBB32B36357700849362 /* Density_Equation.png */,
+				77E4FBC62B36357800849362 /* density1EQ copy.png */,
+				77E4FBE32B36357B00849362 /* displacement copy.GIF */,
+				77E4FBCB2B36357900849362 /* Displacement_Equation.png */,
+				77E4FBC02B36357800849362 /* DisplacementEquation.png */,
+				77E4FBB52B36357700849362 /* Dynamic_Pressure_Equation.png */,
+				77E4FBCF2B36357900849362 /* Elastic_Energy_Equation.png */,
+				77E4FBBB2B36357700849362 /* ElecCurrent copy.png */,
+				77E4FBDA2B36357A00849362 /* Electric_Current_Equation.png */,
+				77E4FBE42B36357B00849362 /* Electric_Field_Equation.png */,
+				77E4FBD22B36357900849362 /* Electric_Power_Equation.png */,
+				77E4FBE02B36357A00849362 /* Electric_Power.png */,
+				77E4FBDC2B36357A00849362 /* ElectricPower_Equation.gif */,
+				77E4FBB62B36357700849362 /* ElectronOrbitals copy.png */,
+				77E4FBF72B36357C00849362 /* Energy_Conversion_Efficiency_Equation.png */,
+				77E4FBC82B36357800849362 /* Energy_Equation.png */,
+				77E4FBE62B36357B00849362 /* EquationExplanation-2 copy.png */,
+				77E4FBF52B36357C00849362 /* EquationExplanations-1 copy.png */,
+				77E4FBE22B36357A00849362 /* Force_EQ copy.jpeg */,
+				77E4FBFA2B36357C00849362 /* Friction_Coefficient_Equation.png */,
+				77E4FBE72B36357B00849362 /* Gravitational Acceleration.png */,
+				77E4FBC72B36357800849362 /* Heat_Capacity_Equation.png */,
+				77E4FBD92B36357A00849362 /* Hookes_Law_Equation.png */,
+				77E4FBD12B36357900849362 /* Inductance_Equation.png */,
+				77E4FBC32B36357800849362 /* Inductor_Energy_Equation.png */,
+				77E4FBD72B36357A00849362 /* Inductor_Energy.png */,
+				77E4FBFE2B36357D00849362 /* Introductory_Physics_fig_2.15.png */,
+				77E4FBBE2B36357800849362 /* IonazationEnergies copy.png */,
+				77E4FBF12B36357C00849362 /* Kinetic_Energy_Equation.png */,
+				77E4FBF82B36357C00849362 /* kisspng-light-photoelectric-effect-black-body-radiation-pl-particle-dynamic-light-effect-5ad7be16534939.3850811415240883423412.jpg */,
+				77E4FBBA2B36357700849362 /* Law_Of_Universal_Gravitation.png */,
+				77E4FBDB2B36357A00849362 /* logo.png */,
+				77E4FBC22B36357800849362 /* Magnetic_Field_Equation.png */,
+				77E4FBC12B36357800849362 /* Magnetic_Flux_Equation.png */,
+				77E4FBE82B36357B00849362 /* Mass_Energy_Equivalence_Equation.png */,
+				77E4FBF92B36357C00849362 /* Mass_Flow_Rate_Equation.png */,
+				77E4FBFC2B36357C00849362 /* Mechanical_Advantage_Equation.png */,
+				77E4FBB42B36357700849362 /* Minimum_Energy_Equation.png */,
+				77E4FBDD2B36357A00849362 /* MollerScattering-t.svg.png */,
+				77E4FBD02B36357900849362 /* Momentum_Equation.png */,
+				77E4FBE92B36357B00849362 /* Newtons Second Law.gif */,
+				77E4FC012B36357D00849362 /* Ohms_Law_Equation.png */,
+				77E4FBEA2B36357B00849362 /* PeriodicTable copy.png */,
+				77E4FBDF2B36357A00849362 /* PeriodicTableTrends.png */,
+				77E4FBEB2B36357B00849362 /* PeriodicTablev2.png */,
+				77E4FBEC2B36357B00849362 /* Phase_Velocity_Equation.png */,
+				77E4FBCC2B36357900849362 /* PlanckCurves copy.png */,
+				77E4FBD42B36357900849362 /* Potential_Energy_Equation.png */,
+				77E4FBBC2B36357700849362 /* Pressure_Equation.png */,
+				77E4FBF62B36357C00849362 /* Pressure_Volume_Work_Equation.png */,
+				77E4FC022B36357D00849362 /* PressureVolumeWorkEquation.png */,
+				77E4FBED2B36357B00849362 /* PressureVolumeWorkEquation2.png */,
+				77E4FBC42B36357800849362 /* Resistivity_Equation.png */,
+				77E4FBFD2B36357C00849362 /* Rotational_Kinetic_Energy_Equation.png */,
+				77E4FBCE2B36357900849362 /* Simple_Periodic_Table_Chart-en.svg.png */,
+				77E4FBC92B36357800849362 /* Standard_Model_of_Elementary_Particles.svg.png */,
+				77E4FBE12B36357A00849362 /* StandardModel.png */,
+				77E4FBCD2B36357900849362 /* Static_Fluid_Pressure_Equation.png */,
+				77E4FBBF2B36357800849362 /* StaticFluid_Pressure_Equation.png */,
+				77E4FBB92B36357700849362 /* Torque_Equation.png */,
+				77E4FBEE2B36357B00849362 /* Valence-Electrons-300x198.png */,
+				77E4FBD32B36357900849362 /* VisibleLight2.png */,
+				77E4FBD52B36357A00849362 /* Voltage_Equation.png */,
+				77E4FBEF2B36357B00849362 /* Volumetric_Flow_Rate_Equation.png */,
+				77E4FBF02B36357B00849362 /* Wavelength_Equation.png */,
+				77E4FBF22B36357C00849362 /* Work_Equation.png */,
+				775D678526BF6E610074E1C2 /* Potential_Energy_Equation.png */,
+				775D678B26BF81DB0074E1C2 /* Magnetic_Field_Equation.png */,
+				775D678F26BF912E0074E1C2 /* Mass_Energy_Equivalence_Equation.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		775D673F26B99E4E0074E1C2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				775D670526B99A8C0074E1C2 /* HomeViewController.swift */,
+				775D673726B99D2C0074E1C2 /* TabBarViewController.swift */,
+				775D673926B99D750074E1C2 /* CalculatorsViewController.swift */,
+				775D673B26B99D9D0074E1C2 /* ResourcesViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		775D674026B99E670074E1C2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				775D673D26B99E1F0074E1C2 /* SettingsViewController.swift */,
+				775D674126B99EA10074E1C2 /* WelcomeViewController.swift */,
+				775D674326B99F6C0074E1C2 /* NewtonsSecondLawViewController.swift */,
+				775D674526B99F8E0074E1C2 /* PotentialEnergyViewController.swift */,
+				775D674926B99FDE0074E1C2 /* MassEnergyEquivalenceViewController.swift */,
+				775D674F26B9B5EC0074E1C2 /* ConstantsViewController.swift */,
+				775D675126B9B6070074E1C2 /* IonizationEnergiesViewController.swift */,
+				775D675926BB75640074E1C2 /* AccelerationViewController.swift */,
+				775D675B26BDC9C00074E1C2 /* BaseUnitsViewController.swift */,
+				775D675D26BDDB410074E1C2 /* ElectricFieldViewController.swift */,
+				775D676126BDF4B70074E1C2 /* TableViewController.swift */,
+				775D676326BDF4C30074E1C2 /* OtherViewController.swift */,
+				775D676526BDF4F10074E1C2 /* NewtonianMechanicsViewController.swift */,
+				775D676726BDF5000074E1C2 /* ElectroMagnetismViewController.swift */,
+				775D676926BDF5140074E1C2 /* FluidMechanicsViewController.swift */,
+				775D676B26BDF52C0074E1C2 /* AtomicPhysicsViewController.swift */,
+				775D677926BEF3B60074E1C2 /* PhysicsNewsViewController.swift */,
+				775D677B26BF0A700074E1C2 /* WebsiteViewController.swift */,
+				775D677D26BF109E0074E1C2 /* EmailViewController.swift */,
+				775D677F26BF1FD90074E1C2 /* GreekAlphabetViewController.swift */,
+				775D678126BF314A0074E1C2 /* ConstantsTableViewCell.swift */,
+				775D678D26BF830F0074E1C2 /* ForceOfAMagneticFieldViewController.swift */,
+				775D679126BF92090074E1C2 /* HookesLawViewController.swift */,
+				775D679326BF921D0074E1C2 /* MomentumViewController.swift */,
+				775D679526BF922E0074E1C2 /* KineticEnergyViewController.swift */,
+				775D679726BF92400074E1C2 /* ElasticEnergyViewController.swift */,
+				775D679926BF92630074E1C2 /* EnergyConversionEfficiencyViewController.swift */,
+				775D679B26BF92870074E1C2 /* PressureViewController.swift */,
+				775D679D26BF92A20074E1C2 /* PressureVolumeWorkViewController.swift */,
+				775D679F26BF92BC0074E1C2 /* NewtonsLawOfUniversalGravitationViewController.swift */,
+				775D67A126BF92CE0074E1C2 /* CentrifugalForceViewController.swift */,
+				775D67A326BF92E00074E1C2 /* FrictionViewController.swift */,
+				775D67A526BF92F20074E1C2 /* RotationalKineticEnergyViewController.swift */,
+				775D67A726BF92FF0074E1C2 /* TorqueViewController.swift */,
+				775D67A926BF93560074E1C2 /* GravitationalAccelerationViewController.swift */,
+				775D67AB26BF94220074E1C2 /* WorkViewController.swift */,
+				775D67C926C0ABF10074E1C2 /* ElectricPowerViewController.swift */,
+				775D67CB26C0AC030074E1C2 /* ElectricCurrentViewController.swift */,
+				775D67CD26C0AC100074E1C2 /* OhmsLawViewController.swift */,
+				775D67CF26C0AC1A0074E1C2 /* VoltageViewController.swift */,
+				775D67D126C0AC2D0074E1C2 /* MagneticFluxViewController.swift */,
+				775D67D426C0AC4A0074E1C2 /* MagneticFieldViewController.swift */,
+				775D67D626C0AC5D0074E1C2 /* ResistivityViewController.swift */,
+				775D67D826C0AC730074E1C2 /* CapacitanceViewController.swift */,
+				775D67DA26C0AC880074E1C2 /* CapacitorEnergyViewController.swift */,
+				775D67DC26C0AC990074E1C2 /* InductorEnergyViewController.swift */,
+				775D67DE26C0ACA80074E1C2 /* CoulombsLawViewController.swift */,
+				775D67F626C0C51B0074E1C2 /* InductanceViewController.swift */,
+				775D680426C0CF200074E1C2 /* DisplacementViewController.swift */,
+				775D680626C0CF2D0074E1C2 /* DensityViewController.swift */,
+				775D680826C0CF3E0074E1C2 /* PhaseVelocityViewController.swift */,
+				775D680A26C0CF4C0074E1C2 /* StaticFluidPressureViewController.swift */,
+				775D680C26C0CF5C0074E1C2 /* DynamicPressureViewController.swift */,
+				775D680E26C0CF720074E1C2 /* BuoyancyViewController.swift */,
+				775D681026C0CF890074E1C2 /* VolumetricFlowRateViewController.swift */,
+				775D681226C0CF960074E1C2 /* MassFlowRateViewController.swift */,
+				775D681426C0CFA90074E1C2 /* HeatCapacityViewController.swift */,
+				775D681626C0CFB90074E1C2 /* MechanicalAdvantageViewController.swift */,
+				775D683026C0ECA90074E1C2 /* WavelengthViewController.swift */,
+				775D683226C0ECCE0074E1C2 /* DeBroglieWavelengthViewController.swift */,
+				775D683426C0ECDD0074E1C2 /* EnergyViewController.swift */,
+				775D683626C0ECFC0074E1C2 /* MinimumEnergyToEjectElectronViewController.swift */,
+				775D684226C1840F0074E1C2 /* AirResistanceViewController.swift */,
+				775D684426C184350074E1C2 /* CosmicBackgroundRadiationViewController.swift */,
+				775D684626C184530074E1C2 /* ElectronOrbitalsViewController.swift */,
+				775D684826C1847F0074E1C2 /* PeriodicTableViewController.swift */,
+				775D684A26C184900074E1C2 /* PlanckCurvesViewController.swift */,
+				775D684C26C184A90074E1C2 /* FormulaExplanation1ViewController.swift */,
+				775D684E26C184BB0074E1C2 /* FormulaExplanation2ViewController.swift */,
+				775D685026C184E00074E1C2 /* FormulaExplanation3ViewController.swift */,
+				775D685226C184F20074E1C2 /* FormulaExplanation4ViewController.swift */,
+				775D686826C1882A0074E1C2 /* StandardModelViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775D66FD26B99A8B0074E1C2 /* Physics_Backpackv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775D672826B99A8F0074E1C2 /* Build configuration list for PBXNativeTarget "Physics_Backpackv2" */;
+			buildPhases = (
+				775D66FA26B99A8B0074E1C2 /* Sources */,
+				775D66FB26B99A8B0074E1C2 /* Frameworks */,
+				775D66FC26B99A8B0074E1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Physics_Backpackv2;
+			productName = Physics_Backpackv2;
+			productReference = 775D66FE26B99A8C0074E1C2 /* Physics_Backpackv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775D671326B99A8F0074E1C2 /* Physics_Backpackv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775D672B26B99A8F0074E1C2 /* Build configuration list for PBXNativeTarget "Physics_Backpackv2Tests" */;
+			buildPhases = (
+				775D671026B99A8F0074E1C2 /* Sources */,
+				775D671126B99A8F0074E1C2 /* Frameworks */,
+				775D671226B99A8F0074E1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775D671626B99A8F0074E1C2 /* PBXTargetDependency */,
+			);
+			name = Physics_Backpackv2Tests;
+			productName = Physics_Backpackv2Tests;
+			productReference = 775D671426B99A8F0074E1C2 /* Physics_Backpackv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775D671E26B99A8F0074E1C2 /* Physics_Backpackv2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775D672E26B99A8F0074E1C2 /* Build configuration list for PBXNativeTarget "Physics_Backpackv2UITests" */;
+			buildPhases = (
+				775D671B26B99A8F0074E1C2 /* Sources */,
+				775D671C26B99A8F0074E1C2 /* Frameworks */,
+				775D671D26B99A8F0074E1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775D672126B99A8F0074E1C2 /* PBXTargetDependency */,
+			);
+			name = Physics_Backpackv2UITests;
+			productName = Physics_Backpackv2UITests;
+			productReference = 775D671F26B99A8F0074E1C2 /* Physics_Backpackv2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775D66F626B99A8B0074E1C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					775D66FD26B99A8B0074E1C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					775D671326B99A8F0074E1C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 775D66FD26B99A8B0074E1C2;
+					};
+					775D671E26B99A8F0074E1C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 775D66FD26B99A8B0074E1C2;
+					};
+				};
+			};
+			buildConfigurationList = 775D66F926B99A8B0074E1C2 /* Build configuration list for PBXProject "Physics_Backpackv2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775D66F526B99A8B0074E1C2;
+			productRefGroup = 775D66FF26B99A8C0074E1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775D66FD26B99A8B0074E1C2 /* Physics_Backpackv2 */,
+				775D671326B99A8F0074E1C2 /* Physics_Backpackv2Tests */,
+				775D671E26B99A8F0074E1C2 /* Physics_Backpackv2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775D66FC26B99A8B0074E1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D678626BF6E610074E1C2 /* Potential_Energy_Equation.png in Resources */,
+				77E4FC3E2B36357D00849362 /* Valence-Electrons-300x198.png in Resources */,
+				77E4FC072B36357D00849362 /* De_Broglie_Wavelength_Equation.png in Resources */,
+				77E4FC392B36357D00849362 /* Newtons Second Law.gif in Resources */,
+				77E4FC172B36357D00849362 /* Heat_Capacity_Equation.png in Resources */,
+				77E4FC252B36357D00849362 /* Voltage_Equation.png in Resources */,
+				77E4FC222B36357D00849362 /* Electric_Power_Equation.png in Resources */,
+				77E4FC3C2B36357D00849362 /* Phase_Velocity_Equation.png in Resources */,
+				77E4FC322B36357D00849362 /* Force_EQ copy.jpeg in Resources */,
+				775D678C26BF81DB0074E1C2 /* Magnetic_Field_Equation.png in Resources */,
+				77E4FC1A2B36357D00849362 /* acceleration-equation copy.png in Resources */,
+				775D679026BF912E0074E1C2 /* Mass_Energy_Equivalence_Equation.png in Resources */,
+				77E4FC382B36357D00849362 /* Mass_Energy_Equivalence_Equation.png in Resources */,
+				77E4FC282B36357D00849362 /* Acceleration_Equation.png in Resources */,
+				77E4FC512B36357D00849362 /* Ohms_Law_Equation.png in Resources */,
+				77E4FC3D2B36357D00849362 /* PressureVolumeWorkEquation2.png in Resources */,
+				77E4FC332B36357D00849362 /* displacement copy.GIF in Resources */,
+				77E4FC4B2B36357D00849362 /* DeBroglie_Wavelength_Equation.png in Resources */,
+				77E4FC432B36357D00849362 /* acceleration-equation.png in Resources */,
+				77E4FC242B36357D00849362 /* Potential_Energy_Equation.png in Resources */,
+				77E4FC4A2B36357D00849362 /* Friction_Coefficient_Equation.png in Resources */,
+				77E4FC122B36357D00849362 /* Magnetic_Field_Equation.png in Resources */,
+				77E4FC162B36357D00849362 /* density1EQ copy.png in Resources */,
+				77E4FC192B36357D00849362 /* Standard_Model_of_Elementary_Particles.svg.png in Resources */,
+				77E4FC482B36357D00849362 /* kisspng-light-photoelectric-effect-black-body-radiation-pl-particle-dynamic-light-effect-5ad7be16534939.3850811415240883423412.jpg in Resources */,
+				77E4FC362B36357D00849362 /* EquationExplanation-2 copy.png in Resources */,
+				77E4FC052B36357D00849362 /* Dynamic_Pressure_Equation.png in Resources */,
+				77E4FC502B36357D00849362 /* Coulombs_Law_Equation.png in Resources */,
+				775D670E26B99A8F0074E1C2 /* LaunchScreen.storyboard in Resources */,
+				77E4FC0A2B36357D00849362 /* Law_Of_Universal_Gravitation.png in Resources */,
+				77E4FC182B36357D00849362 /* Energy_Equation.png in Resources */,
+				77E4FC1B2B36357D00849362 /* Displacement_Equation.png in Resources */,
+				77E4FC4C2B36357D00849362 /* Mechanical_Advantage_Equation.png in Resources */,
+				77E4FC302B36357D00849362 /* Electric_Power.png in Resources */,
+				775D670B26B99A8F0074E1C2 /* Assets.xcassets in Resources */,
+				77E4FC142B36357D00849362 /* Resistivity_Equation.png in Resources */,
+				77E4FC262B36357D00849362 /* Buoyancy_Equation.png in Resources */,
+				77E4FC082B36357D00849362 /* AirResistance copy.png in Resources */,
+				77E4FC0E2B36357D00849362 /* IonazationEnergies copy.png in Resources */,
+				77E4FC272B36357D00849362 /* Inductor_Energy.png in Resources */,
+				77E4FC102B36357D00849362 /* DisplacementEquation.png in Resources */,
+				77E4FC472B36357D00849362 /* Energy_Conversion_Efficiency_Equation.png in Resources */,
+				775D675626B9FD7D0074E1C2 /* acceleration-equation.png in Resources */,
+				77E4FC042B36357D00849362 /* Minimum_Energy_Equation.png in Resources */,
+				77E4FC0F2B36357D00849362 /* StaticFluid_Pressure_Equation.png in Resources */,
+				77E4FC2B2B36357D00849362 /* logo.png in Resources */,
+				77E4FC402B36357D00849362 /* Wavelength_Equation.png in Resources */,
+				77E4FC522B36357D00849362 /* PressureVolumeWorkEquation.png in Resources */,
+				77E4FC1F2B36357D00849362 /* Elastic_Energy_Equation.png in Resources */,
+				77E4FC312B36357D00849362 /* StandardModel.png in Resources */,
+				77E4FC422B36357D00849362 /* Work_Equation.png in Resources */,
+				77E4FC2A2B36357D00849362 /* Electric_Current_Equation.png in Resources */,
+				77E4FC492B36357D00849362 /* Mass_Flow_Rate_Equation.png in Resources */,
+				77E4FC0B2B36357D00849362 /* ElecCurrent copy.png in Resources */,
+				77E4FC2E2B36357D00849362 /* Capacitance_Equation.png in Resources */,
+				77E4FC0D2B36357D00849362 /* Capacitance.png in Resources */,
+				77E4FC352B36357D00849362 /* CosmicBackgroundRadiation copy.png in Resources */,
+				77E4FC1D2B36357D00849362 /* Static_Fluid_Pressure_Equation.png in Resources */,
+				77E4FC292B36357D00849362 /* Hookes_Law_Equation.png in Resources */,
+				77E4FC1E2B36357D00849362 /* Simple_Periodic_Table_Chart-en.svg.png in Resources */,
+				77E4FC4F2B36357D00849362 /* Capacitor_Energy_Equation.png in Resources */,
+				77E4FC152B36357D00849362 /* Centrifugal_Force_Equation.png in Resources */,
+				77E4FC232B36357D00849362 /* VisibleLight2.png in Resources */,
+				77E4FC132B36357D00849362 /* Inductor_Energy_Equation.png in Resources */,
+				77E4FC3B2B36357D00849362 /* PeriodicTablev2.png in Resources */,
+				77E4FC2D2B36357D00849362 /* MollerScattering-t.svg.png in Resources */,
+				77E4FC3F2B36357D00849362 /* Volumetric_Flow_Rate_Equation.png in Resources */,
+				77E4FC0C2B36357D00849362 /* Pressure_Equation.png in Resources */,
+				77E4FC372B36357D00849362 /* Gravitational Acceleration.png in Resources */,
+				77E4FC342B36357D00849362 /* Electric_Field_Equation.png in Resources */,
+				77E4FC412B36357D00849362 /* Kinetic_Energy_Equation.png in Resources */,
+				77E4FC3A2B36357D00849362 /* PeriodicTable copy.png in Resources */,
+				77E4FC1C2B36357D00849362 /* PlanckCurves copy.png in Resources */,
+				77E4FC092B36357D00849362 /* Torque_Equation.png in Resources */,
+				77E4FC2C2B36357D00849362 /* ElectricPower_Equation.gif in Resources */,
+				77E4FC4E2B36357D00849362 /* Introductory_Physics_fig_2.15.png in Resources */,
+				77E4FC062B36357D00849362 /* ElectronOrbitals copy.png in Resources */,
+				77E4FC212B36357D00849362 /* Inductance_Equation.png in Resources */,
+				77E4FC032B36357D00849362 /* Density_Equation.png in Resources */,
+				77E4FC442B36357D00849362 /* Capacitor_Energy.png in Resources */,
+				77E4FC462B36357D00849362 /* Pressure_Volume_Work_Equation.png in Resources */,
+				77E4FC2F2B36357D00849362 /* PeriodicTableTrends.png in Resources */,
+				77E4FC452B36357D00849362 /* EquationExplanations-1 copy.png in Resources */,
+				77E4FC112B36357D00849362 /* Magnetic_Flux_Equation.png in Resources */,
+				77E4FC202B36357D00849362 /* Momentum_Equation.png in Resources */,
+				77E4FC4D2B36357D00849362 /* Rotational_Kinetic_Energy_Equation.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775D671226B99A8F0074E1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775D671D26B99A8F0074E1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775D66FA26B99A8B0074E1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D673C26B99D9D0074E1C2 /* ResourcesViewController.swift in Sources */,
+				775D683726C0ECFC0074E1C2 /* MinimumEnergyToEjectElectronViewController.swift in Sources */,
+				775D674226B99EA10074E1C2 /* WelcomeViewController.swift in Sources */,
+				775D67F726C0C51B0074E1C2 /* InductanceViewController.swift in Sources */,
+				775D67D226C0AC2D0074E1C2 /* MagneticFluxViewController.swift in Sources */,
+				775D679226BF92090074E1C2 /* HookesLawViewController.swift in Sources */,
+				775D679A26BF92630074E1C2 /* EnergyConversionEfficiencyViewController.swift in Sources */,
+				775D679E26BF92A20074E1C2 /* PressureVolumeWorkViewController.swift in Sources */,
+				775D680926C0CF3E0074E1C2 /* PhaseVelocityViewController.swift in Sources */,
+				775D679426BF921D0074E1C2 /* MomentumViewController.swift in Sources */,
+				775D677426BDF98C0074E1C2 /* AtomicPhysics.swift in Sources */,
+				775D677226BDF96F0074E1C2 /* FluidMechanics.swift in Sources */,
+				775D674C26B9A0890074E1C2 /* APICaller.swift in Sources */,
+				775D681526C0CFA90074E1C2 /* HeatCapacityViewController.swift in Sources */,
+				775D673A26B99D750074E1C2 /* CalculatorsViewController.swift in Sources */,
+				775D679C26BF92870074E1C2 /* PressureViewController.swift in Sources */,
+				775D684F26C184BB0074E1C2 /* FormulaExplanation2ViewController.swift in Sources */,
+				775D67A426BF92E00074E1C2 /* FrictionViewController.swift in Sources */,
+				775D676626BDF4F10074E1C2 /* NewtonianMechanicsViewController.swift in Sources */,
+				775D681726C0CFB90074E1C2 /* MechanicalAdvantageViewController.swift in Sources */,
+				775D674A26B99FDE0074E1C2 /* MassEnergyEquivalenceViewController.swift in Sources */,
+				775D67D026C0AC1A0074E1C2 /* VoltageViewController.swift in Sources */,
+				775D67A826BF92FF0074E1C2 /* TorqueViewController.swift in Sources */,
+				775D677826BDF9C40074E1C2 /* Other.swift in Sources */,
+				775D673E26B99E1F0074E1C2 /* SettingsViewController.swift in Sources */,
+				775D678E26BF830F0074E1C2 /* ForceOfAMagneticFieldViewController.swift in Sources */,
+				775D675226B9B6070074E1C2 /* IonizationEnergiesViewController.swift in Sources */,
+				775D684726C184530074E1C2 /* ElectronOrbitalsViewController.swift in Sources */,
+				775D680D26C0CF5C0074E1C2 /* DynamicPressureViewController.swift in Sources */,
+				775D673826B99D2C0074E1C2 /* TabBarViewController.swift in Sources */,
+				775D685326C184F20074E1C2 /* FormulaExplanation4ViewController.swift in Sources */,
+				775D67D726C0AC5D0074E1C2 /* ResistivityViewController.swift in Sources */,
+				775D684D26C184A90074E1C2 /* FormulaExplanation1ViewController.swift in Sources */,
+				775D675426B9B6DF0074E1C2 /* ResourcesModels.swift in Sources */,
+				775D676A26BDF5140074E1C2 /* FluidMechanicsViewController.swift in Sources */,
+				775D684526C184350074E1C2 /* CosmicBackgroundRadiationViewController.swift in Sources */,
+				775D677026BDF9570074E1C2 /* ElectroMagnetism.swift in Sources */,
+				775D67D926C0AC730074E1C2 /* CapacitanceViewController.swift in Sources */,
+				775D677C26BF0A700074E1C2 /* WebsiteViewController.swift in Sources */,
+				775D684326C1840F0074E1C2 /* AirResistanceViewController.swift in Sources */,
+				775D67CC26C0AC030074E1C2 /* ElectricCurrentViewController.swift in Sources */,
+				775D67DF26C0ACA80074E1C2 /* CoulombsLawViewController.swift in Sources */,
+				775D680726C0CF2D0074E1C2 /* DensityViewController.swift in Sources */,
+				775D67AC26BF94220074E1C2 /* WorkViewController.swift in Sources */,
+				775D680B26C0CF4C0074E1C2 /* StaticFluidPressureViewController.swift in Sources */,
+				775D684B26C184900074E1C2 /* PlanckCurvesViewController.swift in Sources */,
+				775D686926C1882A0074E1C2 /* StandardModelViewController.swift in Sources */,
+				775D683526C0ECDD0074E1C2 /* EnergyViewController.swift in Sources */,
+				775D67CA26C0ABF10074E1C2 /* ElectricPowerViewController.swift in Sources */,
+				775D675E26BDDB410074E1C2 /* ElectricFieldViewController.swift in Sources */,
+				775D680F26C0CF720074E1C2 /* BuoyancyViewController.swift in Sources */,
+				775D67CE26C0AC100074E1C2 /* OhmsLawViewController.swift in Sources */,
+				775D683326C0ECCE0074E1C2 /* DeBroglieWavelengthViewController.swift in Sources */,
+				775D684926C1847F0074E1C2 /* PeriodicTableViewController.swift in Sources */,
+				775D67DB26C0AC880074E1C2 /* CapacitorEnergyViewController.swift in Sources */,
+				775D681326C0CF960074E1C2 /* MassFlowRateViewController.swift in Sources */,
+				775D679626BF922E0074E1C2 /* KineticEnergyViewController.swift in Sources */,
+				775D676426BDF4C30074E1C2 /* OtherViewController.swift in Sources */,
+				775D680526C0CF200074E1C2 /* DisplacementViewController.swift in Sources */,
+				775D681126C0CF890074E1C2 /* VolumetricFlowRateViewController.swift in Sources */,
+				775D677E26BF109E0074E1C2 /* EmailViewController.swift in Sources */,
+				775D675A26BB75640074E1C2 /* AccelerationViewController.swift in Sources */,
+				775D677626BDF9B80074E1C2 /* Table.swift in Sources */,
+				775D677A26BEF3B60074E1C2 /* PhysicsNewsViewController.swift in Sources */,
+				775D670626B99A8C0074E1C2 /* HomeViewController.swift in Sources */,
+				775D685126C184E00074E1C2 /* FormulaExplanation3ViewController.swift in Sources */,
+				775D67D526C0AC4A0074E1C2 /* MagneticFieldViewController.swift in Sources */,
+				775D674E26B9B0050074E1C2 /* CalculatorsModels.swift in Sources */,
+				775D678226BF314A0074E1C2 /* ConstantsTableViewCell.swift in Sources */,
+				775D67A026BF92BC0074E1C2 /* NewtonsLawOfUniversalGravitationViewController.swift in Sources */,
+				775D675026B9B5EC0074E1C2 /* ConstantsViewController.swift in Sources */,
+				775D67A626BF92F20074E1C2 /* RotationalKineticEnergyViewController.swift in Sources */,
+				775D678026BF1FD90074E1C2 /* GreekAlphabetViewController.swift in Sources */,
+				775D676826BDF5000074E1C2 /* ElectroMagnetismViewController.swift in Sources */,
+				775D674426B99F6C0074E1C2 /* NewtonsSecondLawViewController.swift in Sources */,
+				775D670226B99A8C0074E1C2 /* AppDelegate.swift in Sources */,
+				775D679826BF92400074E1C2 /* ElasticEnergyViewController.swift in Sources */,
+				775D67AA26BF93560074E1C2 /* GravitationalAccelerationViewController.swift in Sources */,
+				775D67DD26C0AC990074E1C2 /* InductorEnergyViewController.swift in Sources */,
+				775D67A226BF92CE0074E1C2 /* CentrifugalForceViewController.swift in Sources */,
+				775D676C26BDF52C0074E1C2 /* AtomicPhysicsViewController.swift in Sources */,
+				775D676226BDF4B70074E1C2 /* TableViewController.swift in Sources */,
+				775D675C26BDC9C00074E1C2 /* BaseUnitsViewController.swift in Sources */,
+				775D670426B99A8C0074E1C2 /* SceneDelegate.swift in Sources */,
+				775D683126C0ECA90074E1C2 /* WavelengthViewController.swift in Sources */,
+				775D674626B99F8E0074E1C2 /* PotentialEnergyViewController.swift in Sources */,
+				775D676E26BDF92D0074E1C2 /* NewtonianMechanics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775D671026B99A8F0074E1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D671926B99A8F0074E1C2 /* Physics_Backpackv2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775D671B26B99A8F0074E1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D672426B99A8F0074E1C2 /* Physics_Backpackv2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775D671626B99A8F0074E1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775D66FD26B99A8B0074E1C2 /* Physics_Backpackv2 */;
+			targetProxy = 775D671526B99A8F0074E1C2 /* PBXContainerItemProxy */;
+		};
+		775D672126B99A8F0074E1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775D66FD26B99A8B0074E1C2 /* Physics_Backpackv2 */;
+			targetProxy = 775D672026B99A8F0074E1C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775D670C26B99A8F0074E1C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775D670D26B99A8F0074E1C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775D672626B99A8F0074E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775D672726B99A8F0074E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775D672926B99A8F0074E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = PH3MVWW7RW;
+				INFOPLIST_FILE = Physics_Backpackv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMansky.PhysicsBackpack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775D672A26B99A8F0074E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = PH3MVWW7RW;
+				INFOPLIST_FILE = Physics_Backpackv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMansky.PhysicsBackpack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		775D672C26B99A8F0074E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGMJ33HGP4;
+				INFOPLIST_FILE = Physics_Backpackv2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JoshMansky.Physics-Backpackv2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics_Backpackv2.app/Physics_Backpackv2";
+			};
+			name = Debug;
+		};
+		775D672D26B99A8F0074E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGMJ33HGP4;
+				INFOPLIST_FILE = Physics_Backpackv2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JoshMansky.Physics-Backpackv2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics_Backpackv2.app/Physics_Backpackv2";
+			};
+			name = Release;
+		};
+		775D672F26B99A8F0074E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGMJ33HGP4;
+				INFOPLIST_FILE = Physics_Backpackv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JoshMansky.Physics-Backpackv2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Physics_Backpackv2;
+			};
+			name = Debug;
+		};
+		775D673026B99A8F0074E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGMJ33HGP4;
+				INFOPLIST_FILE = Physics_Backpackv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JoshMansky.Physics-Backpackv2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Physics_Backpackv2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775D66F926B99A8B0074E1C2 /* Build configuration list for PBXProject "Physics_Backpackv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775D672626B99A8F0074E1C2 /* Debug */,
+				775D672726B99A8F0074E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775D672826B99A8F0074E1C2 /* Build configuration list for PBXNativeTarget "Physics_Backpackv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775D672926B99A8F0074E1C2 /* Debug */,
+				775D672A26B99A8F0074E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775D672B26B99A8F0074E1C2 /* Build configuration list for PBXNativeTarget "Physics_Backpackv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775D672C26B99A8F0074E1C2 /* Debug */,
+				775D672D26B99A8F0074E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775D672E26B99A8F0074E1C2 /* Build configuration list for PBXNativeTarget "Physics_Backpackv2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775D672F26B99A8F0074E1C2 /* Debug */,
+				775D673026B99A8F0074E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775D66F626B99A8B0074E1C2 /* Project object */;
+}
